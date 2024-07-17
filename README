@@ -1,0 +1,6 @@
+This is the code repository for the project 'Generative prediction of causal gene sets responsible for complex traits'. This repository contains data, jupyter notebooks and a python script.
+Data: 1) single-cell RNAseq data on the human complex disease traits featured in the manuscript, and 2) transcriptional responses to gene perturbations.
+Jupyter notebooks: 1) a notebook implementing the variational autoencoder TWAVE, as well as dimensionality reduction via selection of causal eigengenes, and 2) a notebook implementing post-optimization analysis by the maximum entropy graph null model and construction of gene perturbation co-occurrence networks.
+Python script: implementing constrained optimization to find relevant genes that drive the transition between baseline and variant clusters in causal eigengene space.
+
+Please reach out to Ben Kuznets-Speck at biophysben@gmail.com with any questions, comments or concerns.
