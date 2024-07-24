@@ -5,11 +5,12 @@ This repository contains jupyter notebooks and a python script.
 
 Data: 1) single-cell RNAseq data on the human complex disease traits featured in the manuscript (labeled by GEO series)
       2) transcriptional responses to gene perturbations.
+      3) gene_dict and matching_indices needed to run the jupyter notebooks below.
       Both data sourses can be found on the following google drive: https://drive.google.com/drive/folders/1_H66cbaQ5b0b8PE_XHILDVhLP8XNjaj3?usp=sharing
 
-Jupyter notebooks: 1) a notebook implementing the variational autoencoder TWAVE, as well as dimensionality reduction via selection of causal eigengenes
-                   2) a notebook implementing post-optimization analysis by the maximum entropy graph null model and construction of gene perturbation co-occurrence networks.
+Jupyter notebooks: 1) TWAVE1: a notebook implementing the variational autoencoder TWAVE, as well as dimensionality reduction via selection of causal eigengenes
+                   2) TWAVE2: a notebook implementing post-optimization analysis by the maximum entropy graph null model and construction of gene perturbation co-occurrence networks.
 
-Python script: implementing constrained optimization to find relevant genes that drive the transition between baseline and variant clusters in causal eigengene space.
+Python script: TWAVE_optimization: implementing constrained optimization to find relevant genes that drive the transition between baseline and variant clusters in causal eigengene space.
 
 Please reach out to Ben Kuznets-Speck at biophysben@gmail.com with any questions.
