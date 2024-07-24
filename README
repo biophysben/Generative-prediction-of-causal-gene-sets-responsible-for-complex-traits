@@ -3,9 +3,10 @@ This is the code repository for the project 'Generative prediction of causal gen
 This repository contains jupyter notebooks and a python script.
 
 
-Data: 1) single-cell RNAseq data on the human complex disease traits featured in the manuscript (labeled by GEO series)
+Data: 1) single-cell RNAseq data on the human complex disease traits featured in the manuscript (labeled by GEO series, see Table 1 in main text).
       2) transcriptional responses to gene perturbations.
       3) gene_dict and matching_indices needed to run the jupyter notebooks below.
+      4) sample optimization data for allergic asthma trait to run the second jupyter notebook TWAVE2 below: data_aa_lam_3.zip.
       Data sourses were too alrge to upload to github and can be found on the following google drive: https://drive.google.com/drive/folders/1_H66cbaQ5b0b8PE_XHILDVhLP8XNjaj3?usp=sharing
 
 Jupyter notebooks: 1) TWAVE1: a notebook implementing the variational autoencoder TWAVE, as well as dimensionality reduction via selection of causal eigengenes
