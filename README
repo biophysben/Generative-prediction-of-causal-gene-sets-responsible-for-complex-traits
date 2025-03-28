@@ -2,6 +2,12 @@ This is the code repository for the project 'Generative prediction of causal gen
 
 This repository contains jupyter notebooks and a python script.
 
+To use the notebooks and python script without any dependency issues please run the following in your local directory:
+# Create the environment from the .yml file
+conda env create -f environment.yml
+# Activate the environment
+conda activate my_env  
+
 
 Data: 1) single-cell RNAseq data on the human complex disease traits featured in the manuscript (labeled by GEO series, see Table 1 in main text).
       2) transcriptional responses to gene perturbations.
