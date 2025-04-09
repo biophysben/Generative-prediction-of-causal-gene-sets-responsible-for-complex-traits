@@ -1,0 +1,1 @@
+#### Directory containing the output figures comparing IBD genes
