@@ -12,8 +12,10 @@ The software packages needed to run the code may be installed by following these
 
 Now you should be able to run the code!
 
+The other .yml files (TWAVE, u_vec and enrich) are for the TWAVE_optimization notebooks (network_analysis.ipynb, u_vectors.ipynb, and enrichr_codes.ipynb, respectivly)
+
 ## Download the necessary data
-There are several data files that are too large to host on GitHub. They are currently available at on Google Drive [https://drive.google.com/drive/folders/1_H66cbaQ5b0b8PE_XHILDVhLP8XNjaj3?usp=sharing].
+There are several data files that are too large to host on GitHub. They are currently available on Google Drive https://drive.google.com/drive/folders/1_H66cbaQ5b0b8PE_XHILDVhLP8XNjaj3?usp=sharing and permanently on dryad https://doi.org/10.5061/dryad.s4mw6m9hf, which contains a comprehensive explanation of the files and what they contain.
 
 The data consist of:
 1. single-cell RNAseq data on the human complex disease traits featured in the manuscript (labeled by GEO series, see Table 1 in main text)
@@ -23,11 +25,15 @@ The data consist of:
 
 Note: these data take up a couple GB of space, so downloads could take a long time for slow internet connections.
 
+We also have a permanant DOI hosted by dryad https://doi.org/10.5061/dryad.s4mw6m9hf to store the data files, as well as a comprehensive explanation of the files and what they contain. 
+
+
+
 ## Run the code
 
 The code consists of the following files:
 1. TWAVE1_training_eigengenes_average_optimization.ipynb --- a Jupyter notebook that trains the Variational Autoencoder TWAVE on the source data, reduces dimension to the causal eigengenes, and performs the optimization for the average states.
-2. TWAVE2_optimization_analysis.ipynb --- a Juptyer notebook that assembles gene sets from the point-to-point optimization into gene perturbation co-occurrence networks using the maximum entropy model as a null model.
+2. TWAVE2_optimization_analysis: 3 Juptyer notebooks that 1) assembles gene sets from the point-to-point optimization 2) performs graph analysis on these gene sets to find gene perturbation co-occurrence networks using the maximum entropy model as a null model and 3) search for upstream transcription factors that are enriched for by our gene pairs with the enrichr database.
 3. TWAVE_optimization.py --- a Python script that parallelizes the point-to-point constrained optimization. We recommend running this on a cluster since each of the 2500 x 2 optimizations takes between 15 and 30 minutes on a single processor.
 
 ## Need help?
