@@ -33,7 +33,7 @@ We also have a permanant DOI hosted by dryad https://doi.org/10.5061/dryad.s4mw6
 
 The code consists of the following files:
 1. TWAVE1_training_eigengenes_average_optimization.ipynb --- a Jupyter notebook that trains the Variational Autoencoder TWAVE on the source data, reduces dimension to the causal eigengenes, and performs the optimization for the average states.
-2. TWAVE2_optimization_analysis: 3 Juptyer notebooks that 1) assembles gene sets from the point-to-point optimization 2) performs graph analysis on these gene sets to find gene perturbation co-occurrence networks using the maximum entropy model as a null model and 3) search for upstream transcription factors that are enriched for by our gene pairs with the enrichr database.
+2. TWAVE2_optimization_analysis: 3 Juptyer notebooks that 1) (u_vectors.ipynb) assemble gene sets from the point-to-point optimization 2) (network_analysis.ipynb) perform graph analysis on these gene sets to find gene perturbation co-occurrence networks using the maximum entropy model as a null model and 3) (enrichr_codes.ipynb) search for upstream transcription factors that are enriched for by our gene pairs with the enrichr database.
 3. TWAVE_optimization.py --- a Python script that parallelizes the point-to-point constrained optimization. We recommend running this on a cluster since each of the 2500 x 2 optimizations takes between 15 and 30 minutes on a single processor.
 
 ## Need help?
