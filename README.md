@@ -1,4 +1,4 @@
-# Generative prediction of causal gene sets responsible for complex traits
+# Code for Generative prediction of causal gene sets responsible for complex traits
 
 B. Kuznets-Speck, B. K. Ogonor, T. P. Wytock, and A. E. Motter
 
