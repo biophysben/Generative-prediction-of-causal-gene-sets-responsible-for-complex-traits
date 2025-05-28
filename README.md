@@ -1,7 +1,9 @@
 # Generative prediction of causal gene sets responsible for complex traits
 
+B. Kuznets-Speck, B. K. Ogonor, T. P. Wytock, and A. E. Motter
+
 This repository contains two Jupyter notebooks and a Python script needed to reproduce the results of "Generative prediction of causal gene sets responsible
-for complex traits" to be published.
+for complex traits" to be published in PNAS.
 
 ## Installing necessary software 
 The software packages needed to run the code may be installed by following these steps:
